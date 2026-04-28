@@ -1,0 +1,5 @@
+#git configuracion para nueva 2.0v
+*.log
+*.csv
+*.parquet
+_targets/
