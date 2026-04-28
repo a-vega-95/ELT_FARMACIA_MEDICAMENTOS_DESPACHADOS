@@ -1,5 +1,11 @@
-#git configuracion para nueva 2.0v
+# git configuracion para nueva 2.0v
 *.log
 *.csv
 *.parquet
 _targets/
+
+# Mantener estructura de carpetas de datos sin subir archivos pesados
+!datos/entrada/
+!datos/entrada/.gitkeep
+!datos/entrada/RECETAS_DESPACHADAS/
+!datos/entrada/RECETAS_DESPACHADAS/.gitkeep
